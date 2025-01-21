@@ -1,0 +1,202 @@
+main {
+  overflow-x: hidden;
+}
+
+/* slider css  */
+
+.slider {
+  height: 70vh;
+}
+.swiper {
+  height: 100%;
+}
+.slider .swiper-slide {
+  height: 100%;
+  position: relative;
+}
+.slider .swiper-slide img {
+  height: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider .swiper-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+.swiper-slide .overlay .text {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide .overlay .text img {
+  width: 100px;
+  height: auto;
+}
+.swiper-slide .overlay .text h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+.swiper-slide .overlay .text p {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.swiper-slide .overlay .text a {
+  color: white;
+  background-color: green;
+  /* align-self: flex-start; */
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide .overlay .text h1 {
+    font-size: 3rem;
+  }
+  .slider {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .swiper-slide .overlay .text h1 {
+    font-size: 1.8rem;
+  }
+  .swiper-slide .overlay .text p {
+    font-size: 0.8rem;
+  }
+  .swiper-slide .overlay .text a {
+    font-size: 0.8rem;
+  }
+}
+
+/* ******************* links  */
+
+.links {
+  padding: 1rem 1rem 0;
+}
+.links-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.links-content .link {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 8px 0px;
+}
+.links-content .link img {
+  width: 23px;
+  margin-bottom: 3px;
+}
+.links-content .link p {
+  color: white;
+  font-size: 0.6rem;
+}
+
+.links-content .link:hover {
+  opacity: 0.5;
+}
+
+/* ****************** date  */
+
+.date {
+  padding: 1rem 1rem;
+}
+
+.date-content {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.date-content p {
+  color: white;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+}
+.date-content p img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* **************** timgins  */
+
+.timings {
+  padding: 0rem 1rem 1rem;
+}
+
+.timings-content {
+}
+.timings-content table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.timings-content table thead {
+  text-align: left;
+  background-color: green;
+}
+.timings-content table thead td {
+  color: white;
+  padding: 12px 10px;
+  border: none;
+}
+.timings-content table tbody td {
+  padding: 10px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* ************* messages  */
+
+.messages {
+  padding: 0 1rem 1rem;
+}
+.messages-content {
+}
+.messages-content .message {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 5px;
+  /* border: 2px solid green; */
+}
+.messages-content .message p {
+  /* color: white; */
+  margin-bottom: 5px;
+}
+.messages-content .message h4 {
+  /* color: white; */
+  /* text-align: center; */
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.messages-content .message span {
+  /* color: white; */
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-align: right;
+  display: block;
+}

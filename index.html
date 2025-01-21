@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- favicons  -->
+    <link rel="icon" href="./images/icon.png" type="image/png" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/loader.css" />
+    <link rel="stylesheet" href="./styles/donate.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- bootstrap css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Home - Masjid Miskeen Shah</title>
+  </head>
+  <body>
+    <div class="loader-container">
+      <img src="./images/icon.png" alt="" />
+      <div class="loader"></div>
+    </div>
+
+    <main>
+      <!-- bottombar sunrise -->
+      <div class="bottombar">
+        <div class="bottombar-content">
+          <p>Tulu (sunrise) is at 00:00 AM</p>
+          <p>Sunset : 00:00</p>
+        </div>
+      </div>
+
+      <section class="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1674135140000-dadd7a9d8d6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+              <div class="overlay">
+                <div class="text">
+                  <img src="./images/lailaha.png" alt="" />
+                  <h1>Masjid-e-Miskeen Shah</h1>
+                  <p>
+                    Masjid-e-Miskeen Shah is a vibrant hub for worship,
+                    learning, and community service. It fosters spiritual growth
+                    through prayers, Quranic teachings, and social programs,
+                    welcoming all to experience unity, peace, and the essence of
+                    Islamic faith.
+                  </p>
+                  <a href="./about.html">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1590190924082-30c948798ce3?q=80&w=1092&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+              <div class="overlay">
+                <div class="text">
+                  <img src="./images/lailaha.png" alt="" />
+                  <h1>Quran Classes</h1>
+                  <p>
+                    Join our Quran classes to explore the divine teachings of
+                    the Holy Quran. Learn proper recitation, memorization, and
+                    interpretation in a nurturing environment. Perfect for all
+                    ages, fostering spiritual growth, knowledge, and a deeper
+                    connection with Allah.
+                  </p>
+                  <a href="./contact.html">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div> -->
+          <!-- <div class="swiper-button-prev"></div> -->
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </section>
+
+      <section class="links">
+        <div class="links-content">
+          <a href="./about.html" class="link">
+            <img src="./images/icons/about.png" alt="" />
+            <p>About</p>
+          </a>
+          <a href="./events.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Events</p>
+          </a>
+          <a href="./gallery.html" class="link">
+            <img src="./images/icons/gallery.png" alt="" />
+            <p>Gallery</p>
+          </a>
+          <a href="compas.html" class="link">
+            <img src="./images/icons/compass.png" alt="" />
+            <p>Compas</p>
+          </a>
+          <a href="./contact.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Contact</p>
+          </a>
+          <a href="./ramadan.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Ramadan</p>
+          </a>
+          <a href="./login.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Admin</p>
+          </a>
+          <a href="./messages.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Messages</p>
+          </a>
+          <a href="./learn-arabic.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Arabic</p>
+          </a>
+          <a href="./donate.html" class="link">
+            <img src="./images/icons/phone-book.png" alt="" />
+            <p>Donate</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="date">
+        <div class="date-content">
+          <p><img src="./images/calendar.png" alt="" /> 30 Jan 2025</p>
+          <p><img src="./images/moon.png" alt="" />30 rajab 1446</p>
+        </div>
+      </section>
+
+      <section class="timings">
+        <div class="timings-content">
+          <table>
+            <thead>
+              <tr>
+                <td>Prayer</td>
+                <td>Azaan</td>
+                <td>Iqama</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fajr</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Zuhar</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Asar</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Maghrib</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Isha</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Jumah</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Eid ul Fitr</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+              <tr>
+                <td>Eid ul Adha</td>
+                <td>00:00</td>
+                <td>00:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="messages">
+        <div class="messages-content">
+          <div class="message">
+            <h4>Hadith of the day</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              soluta.
+            </p>
+            <span>buqari 5:44</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="bottom">
+            <p>Powered by <a href="https://www.instagram.com/lost_shazim/" target="_blank">Developer</a></p>
+          </div>
+        </div>
+      </div>
+      </footer>
+    </main>
+
+    <!-- scripts  -->
+    <script src="./script/header.js"></script>
+    <script src="./script/loader.js"></script>
+    <script src="./script/timings.js"></script>
+  </body>
+</html>

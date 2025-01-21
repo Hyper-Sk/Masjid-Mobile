@@ -1,0 +1,30 @@
+
+/* **************** timgins  */
+
+.timings {
+    padding: 2rem 1rem 2rem;
+  }
+  
+  .timings-content {
+  }
+  .timings-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+  .timings-content table thead {
+    text-align: left;
+    background-color: green;
+  }
+  .timings-content table thead td {
+    color: white;
+    padding: 12px 10px;
+    border: none;
+  }
+  .timings-content table tbody td {
+    padding: 10px 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  

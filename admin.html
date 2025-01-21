@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- favicons  -->
+    <link rel="icon" href="./images/icon.png" type="image/png" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/loader.css" />
+    <link rel="stylesheet" href="./styles/donate.css" />
+    <link rel="stylesheet" href="./styles/admin.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- bootstrap css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Home - Masjid Miskeen Shah</title>
+  </head>
+  <body>
+    <div class="loader-container">
+      <img src="./images/icon.png" alt="" />
+      <div class="loader"></div>
+    </div>
+
+    <main>
+      <header class="header">
+        <div class="topbar">
+          <div class="topbar-content">
+            <p>Hyderabad, Ind</p>
+            <a href="./compas.html">
+              <img src="./images/direction.png" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <!-- desktop header  -->
+        <div class="header-main">
+          <div class="main-content">
+            <div class="main__logo">
+              <a href="">
+                <img src="./images/masjid-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="menu">
+              <a href="./">Home</a>
+              <a href="./about.html">About</a>
+              <a href="./gallery.html">Gallery</a>
+              <a href="./contact.html">Contact</a>
+              <a href="./admin.html" class="active">Admin</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile header  -->
+        <div class="header-mobile">
+          <div class="mobile-content">
+            <div class="mobile__logo">
+              <a href="./">
+                <img src="./images/masjid-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="open">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="aside">
+          <div class="aside-content">
+            <a href="./">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./compas.html">Compas</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+          <div class="close">
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+
+          <div class="bottom">
+            <div class="icon">
+              <a href="./admin.html">
+                <i class="bi bi-person"></i>
+              </a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://maps.app.goo.gl/XgW1ENidYTC6SFEG7"
+                target="_blank"
+              >
+                <i class="bi bi-crosshair"></i>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </header>
+
+      <section class="heading">
+        <h1>Slides</h1>
+        <p>Edit Slides</p>
+      </section>
+
+      <section class="all-slides">
+        <div class="all-slides-content">
+
+          
+          <!-- slide  -->
+          <div class="slide__view">
+            <img src="https://cdn.pixabay.com/photo/2024/01/31/18/39/vibrant-8544591_1280.png" alt="">
+            <div class="text">
+              <h4>Title</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, quidem.</p>
+              <span>22- 11 - 2024</span>
+              <div class="icons">
+                <i class="bi bi-pencil-square edit"></i>
+                <i class="bi bi-trash-fill delete"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- slide  -->
+          <div class="slide__view">
+            <img src="https://cdn.pixabay.com/photo/2024/01/31/18/39/vibrant-8544591_1280.png" alt="">
+            <div class="text">
+              <h4>Title</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, quidem.</p>
+              <span>22- 11 - 2024</span>
+              <div class="icons">
+                <i class="bi bi-pencil-square edit"></i>
+                <i class="bi bi-trash-fill delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="heading">
+        <h1>Add Slide</h1>
+        <p>Add Slide</p>
+      </section>
+
+      <section class="slides">
+        <div class="slides-content">
+          <form class="slide__single">
+            <h3>Heading</h3>
+            <input type="text" />
+            <h3>Paragraph</h3>
+            <textarea> </textarea>
+            <h3>Select Background Image File</h3>
+            <input type="file" />
+          </form>
+        </div>
+      </section>
+
+      <section class="heading">
+        <h1>Salah Timings</h1>
+        <p>Edit Salah Timings</p>
+      </section>
+
+      <section class="salah">
+        <form class="salah-content">
+          <h3>Fajr</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Zuhar</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Asar</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Maghrib</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Isha</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+          <h3>Jummah</h3>
+          <div class="col">
+            <div>
+              <label for="">Azaan</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Iqama</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="update">
+            <button>Update Timings</button>
+          </div>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="top">
+            <p>
+              © Copyright 2025 <span>Masjid-e-Miskeen Shah</span> All Right
+              Reserved.
+            </p>
+          </div>
+
+          <div class="bottom">
+            <p>Powered by <a href="#">Developer</a></p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- scripts  -->
+    <script src="./script/header.js"></script>
+    <script src="./script/loader.js"></script>
+  </body>
+</html>

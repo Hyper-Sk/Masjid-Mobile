@@ -1,0 +1,18 @@
+.footer {
+  padding: 1rem 1rem;
+  background-color: #f2f2f2;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.footer-content .bottom {
+}
+.footer-content .bottom p {
+  color: #303030;
+  font-size: 0.9rem;
+  /* text-align: center; */
+}
+.footer-content .bottom a {
+  color: gray;
+  font-size: 0.9rem;
+
+}
