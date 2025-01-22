@@ -1,12 +1,10 @@
 window.addEventListener("load", () => {
-
   function receiveData() {
     let year = new Date().getFullYear();
     let month = new Date().getMonth().toLocaleString("en-US", "Asia/Delhi");
     let date = new Date().getDate().toLocaleString("en-US", "Asia/Delhi");
     let today = `${parseInt(date)}-${parseInt(month) + 1}-${parseInt(year)}`;
     // console.log(today);
-
     fetch(
       `https://api.aladhan.com/v1/timings/${today}?latitude=17.3850&longitude=78.4867&method=2`
     )
@@ -59,15 +57,15 @@ window.addEventListener("load", () => {
     let date = new Date().getDate().toLocaleString("en-US", "Asia/Delhi");
     let today = `${date} ${months[month]} ${year}`;
     // console.log(today)
-    let dateElement = document.querySelector(".timings .date-content");
+    let englishElement = document.querySelector(".date .date-content .english");
+    let hijriElement = document.querySelector(".date .date-content .hijri");
 
     // hijri dates india
     let arabic = hijriDate.data.hijri.month.ar;
-    let english = hijriDate.data.hijri.month.en;
+    let hijriMonth = hijriDate.data.hijri.month.en;
     let hijriD = hijriDate.data.hijri.date;
-    dateElement.innerHTML = `<p> ${today} |  ${hijriD} ${arabic} ${english}</p>`;
-    // console.log(hi)
+
+    englishElement.innerHTML = `${today}`;
+    hijriElement.innerHTML = `${hijriMonth} ${hijriD}`
   }
-
-
 });

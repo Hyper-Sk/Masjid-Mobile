@@ -1,0 +1,31 @@
+.portal{
+    padding: 2rem 1rem 2rem;
+}
+.portal-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.portal-content .portal__single{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.portal-content .portal__single img{
+   width: 30px;
+}
+.portal-content .portal__single p{
+    font-size: 0.9rem;
+}
+.portal-content .portal__single:hover{
+    opacity: 0.5;
+}

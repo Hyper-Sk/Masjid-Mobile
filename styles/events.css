@@ -1,0 +1,36 @@
+.events{
+    padding: 2rem 1rem 2rem;
+}
+
+.events-content{
+
+}
+
+.events-content .event__single{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+.events-content .event__single h4{
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.events-content .event__single p{
+    padding: 10px;
+    
+}
+.events-content .event__single span{
+    padding: 10px;
+    text-align: right;
+    display: block;
+}
+
+
+

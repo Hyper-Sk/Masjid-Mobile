@@ -1,0 +1,81 @@
+.messages{
+    padding: 2rem 1rem 2rem;
+}
+
+.messages-content{
+
+}
+.messages-content .message__single{
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.messages-content .message__single p{
+    /* color: white; */
+    margin-bottom: 5px;
+    padding: 10px 10px 1rem;
+}
+.messages-content .message__single h4{
+ /* color: white; */
+    /* text-align: center; */
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.messages-content .message__single a{
+  display: inline-block;
+  padding: 0 10px 10px;
+}
+.messages-content .message__single img{
+    display: inline-block;
+    width: 30px;   
+}
+
+
+.add-message{
+    padding: 2rem 1rem 2rem;
+}
+
+.add-message-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.add-message-content h3{
+   font-size: 1.4rem;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+.add-message-content input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 0px;
+    padding-inline: 10px;
+    margin-bottom: 10px;
+}
+.add-message-content textarea{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.add-message-content button{
+    width: 100%;
+    border: none;
+    background-color: green;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}

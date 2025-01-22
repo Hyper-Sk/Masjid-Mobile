@@ -53,7 +53,7 @@ main {
 .swiper-slide .overlay .text p {
   color: white;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .swiper-slide .overlay .text a {
   color: white;
@@ -68,7 +68,7 @@ main {
     font-size: 3rem;
   }
   .slider {
-    height: 40vh;
+    height: 50vh;
   }
 }
 @media screen and (max-width: 576px) {
@@ -76,7 +76,7 @@ main {
     font-size: 1.8rem;
   }
   .swiper-slide .overlay .text p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .swiper-slide .overlay .text a {
     font-size: 0.8rem;
@@ -106,6 +106,7 @@ main {
 .links-content .link img {
   width: 23px;
   margin-bottom: 3px;
+  filter: grayscale(100%);
 }
 .links-content .link p {
   color: white;
@@ -139,6 +140,9 @@ main {
   width: 20px;
   margin-right: 10px;
 }
+.date-content p span {
+  color: white;
+}
 
 /* **************** timgins  */
 
@@ -169,34 +173,34 @@ main {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* ************* messages  */
+/* ************* notices  */
 
-.messages {
+.notices {
   padding: 0 1rem 1rem;
 }
-.messages-content {
+.notices-content {
+  border-radius:5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 }
-.messages-content .message {
-  background-color: #f2f2f2;
-  padding: 1rem;
+.notices-content .notice {
+  /* background-color: #f2f2f2; */
   border-radius: 5px;
   /* border: 2px solid green; */
 }
-.messages-content .message p {
+.notices-content .notice p {
   /* color: white; */
   margin-bottom: 5px;
+  padding: 10px 10px 1rem;
 }
-.messages-content .message h4 {
+.notices-content .notice h4 {
   /* color: white; */
   /* text-align: center; */
   margin-bottom: 5px;
   font-size: 1.2rem;
   font-weight: 500;
+  background-color: green;
+  color: white;
+  padding: 10px;
 }
-.messages-content .message span {
-  /* color: white; */
-  margin-bottom: 5px;
-  font-weight: 400;
-  text-align: right;
-  display: block;
-}
+
