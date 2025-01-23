@@ -21,11 +21,14 @@ a{
     display: inline-block;
 }
 
-a,span,p,i{
-    font-size: 16px;
+a,span,p,i,td,tr,th,table, ol,ul,li{
+    font-size: 14px;
     color: #282828;
     letter-spacing: 0.3px;
     line-height: 130%;
+}
+ul {
+    list-style: disc;
 }
 
 img{
@@ -33,6 +36,7 @@ img{
 }
 h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.3px;
+    font-weight:500 ;
 }
 .heading{
     padding: 3rem 1rem 1rem 1rem;
